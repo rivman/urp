@@ -1,5 +1,12 @@
 # **urp** &bull; PHP debug print.
 
+This class can display the values of variables for debugging.
+
+It can take calls to static functions that take variable values to display.
+
+The class can display the name of the static function followed by a dump of the variable value according to its type using its own code to display the variable value.
+
+The values can be rendered optionally to be displayed in HTML pages using colors to distinguish the types of variables.
 
 ## Basic Usage
 ```php
